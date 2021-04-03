@@ -1,7 +1,7 @@
 # slicegraph
 Slice graph uses graphviz in order to make you understand what happens underneath your slices.
 
-## Using the API
+## How to use that?
 
 ```go
 package main
@@ -34,13 +34,15 @@ func main() {
 		panic(err)
 	}
 
-	fmt.Println(buff) // redirect this to the file and open it.
+	fmt.Println(buff)
 }
 ```
+Run above program and redirect the output to the file
 
 ```sh
-go run main.go > graph.svg
-open graph.svg
+go run main.go > example.svg
+open example.svg
 ```
 
+Examine the results 🕵🏼‍♂️
 ![slices](./static/example.svg)
