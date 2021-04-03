@@ -45,4 +45,5 @@ open example.svg
 ```
 
 Examine the results 🕵🏼‍♂️
+
 ![slices](./static/example.svg)
